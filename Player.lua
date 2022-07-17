@@ -7,6 +7,7 @@ function Player:load()
     Player.Width = Player.Size
     Player.Height = Player.Size
     Player.Speed = 400 -- yes
+    Player.Alive = true
 end
 
 function Player:update(dt)
